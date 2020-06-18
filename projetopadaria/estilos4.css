@@ -1,0 +1,21 @@
+﻿body {
+    background-image: url('https://www.healthybread.com.br/wp-content/uploads/2015/07/Antimofo-para-pães-2.jpg');
+    background-attachment: fixed;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    height: 632px;
+    width: 1537px;
+}
+input[type=submit] {
+    background-color: darkcyan;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 36px;
+    border-radius: 8px;
+}
+span {
+    font-weight: bold;
+    font-family: sans-serif;
+}

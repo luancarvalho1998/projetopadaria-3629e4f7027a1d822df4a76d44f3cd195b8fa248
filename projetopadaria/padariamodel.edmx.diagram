@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a4e37f7d1849495f9ef7cf62f6c8383c" Name="Diagram1">
+        <EntityTypeShape EntityType="sistemapadariaModel.usuarios" Width="1.5" PointX="1" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="sistemapadariaModel.cadastros" Width="1.5" PointX="1.125" PointY="0.75" />
+        <EntityTypeShape EntityType="sistemapadariaModel.pedidos" Width="1.5" PointX="3.125" PointY="0.875" />
+        <AssociationConnector Association="sistemapadariaModel.FK_cadastros_pedido" />
+        <AssociationConnector Association="sistemapadariaModel.FK_pedidos_cadastro" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

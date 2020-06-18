@@ -1,0 +1,14 @@
+﻿body {
+    background-image: url(https://www.odefensor.com.br/site/wp-content/uploads/2019/08/Padaria-Artesanal-e1566770856547.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #000000;
+}
+
+font{
+    color:white;
+    font-size:20px;
+    font-family:sans-serif;
+    font-weight:bold;
+}
